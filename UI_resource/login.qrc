@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="background">
+    <file>function_2.jpg</file>
+    <file>search.png</file>
+    <file>icon_hover.png</file>
+    <file>function_1.png</file>
+    <file>logo.png</file>
+    <file>icon_exit.png</file>
+    <file>login_1.jpg</file>
+    <file>login_0.jpg</file>
+  </qresource>
+  <qresource prefix="function_menu">
+    <file>add_data.png</file>
+    <file>menu_0.png</file>
+    <file>menu_1.png</file>
+    <file>menu_3.png</file>
+    <file>menu_2.png</file>
+  </qresource>
+  <qresource prefix="function">
+    <file>delete_data.png</file>
+    <file>科室.png</file>
+    <file>医生.png</file>
+    <file>病人.png</file>
+    <file>return.png</file>
+    <file>exit.png</file>
+    <file>switch_user.png</file>
+    <file>user.png</file>
+    <file>cancel.png</file>
+  </qresource>
+</RCC>
