@@ -1,0 +1,12 @@
+use medicaldb;
+INSERT INTO disease_records(dis_type, level, cure_methods ) Values('急性阑尾炎', 1.0, '1.手术治疗，切除阑尾 2.非手术治疗，卧床休息，禁食，电解质输入体内');
+INSERT INTO disease_records(dis_type, level, cure_methods ) Values('急性肺炎', 2.0, '1.卧床休息，加强支持治疗 2.及时给予有效的氧疗法措施\n3.抗病毒治疗 4.抗菌药物治疗 5.免疫治疗');
+INSERT INTO disease_records(dis_type, level, cure_methods ) Values('急性胃炎', 2.0, '1.一般治疗 2.对症治疗 3.抗感染治疗 4.纠正电解质紊乱');
+INSERT INTO disease_records(dis_type, level, cure_methods ) Values('慢性下尿路感染', 2.0, '1.精选抗生素 2.疗程要长 3.联合使用中成药');
+INSERT INTO disease_records(dis_type, level, cure_methods ) Values('水痘', 3.0, '1.抗病毒药物 2.抗组胺类药物 3.外涂药物 4.抗生素类药物');
+INSERT INTO disease_records(dis_type, level, cure_methods ) Values('高原病', 3.0, '1.休息 2.氧疗 3.药物治疗 4.易地治疗');
+INSERT INTO disease_records(dis_type, level, cure_methods ) Values('维生素B1缺乏病', 3.0, '1.调整饮食结构 2.调整烹调方法 3.口服维生素B1');
+INSERT INTO disease_records(dis_type, level, cure_methods ) Values('上呼吸道感染', 4.0, '1.解热镇痛 2.减充血剂 3.抗菌治疗 4.中药治疗');
+INSERT INTO disease_records(dis_type, level, cure_methods ) Values('消化不良', 4.0, '1.合理饮食 2.按摩 3.适当的运动');
+INSERT INTO disease_records(dis_type, level, cure_methods ) Values('关节扭伤', 4.0, '1.24小时冰敷，48小时热敷 2.力量训练 3.药物喷涂');
+COMMIT;

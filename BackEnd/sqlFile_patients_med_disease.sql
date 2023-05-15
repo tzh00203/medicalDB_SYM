@@ -1,0 +1,18 @@
+use medicaldb;
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('欢欢', 1.0, '2002.3.6', '上呼吸道感染', '刘东');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('欢欢', 1.0, '2020.9.6', '急性肺炎', '张达发');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('大壮', 2.0, '2016.3.6', '消化不良', '安德鲁·戴维斯');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('大壮', 2.0, '2022.10.29', '维生素B1缺乏病', '李广益');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('小明', 3.0, '2006.8.1', '水痘', '巴尔');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('小红', 4.0, '2005.12.13', '急性胃炎', '令狐弓弦');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('小红', 4.0, '2012.10.3', '关节扭伤', '徐适航');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('小红', 4.0, '2019.6.3', '消化不良', '巴尔');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('白白', 5.0, '2022.1.1', '急性阑尾炎', '刘东');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('跳跳', 6.0, '2020.1.2', '上呼吸道感染', '巴尔');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('跳跳', 6.0, '2020.2.3', '急性肺炎', '巴尔');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('跳跳', 6.0, '2020.6.4', '急性阑尾炎', '巴尔');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('跳跳', 6.0, '2021.1.3', '慢性下尿路感染', '令狐弓弦');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('跳跳', 6.0, '2021.6.9', '水痘', '令狐弓弦');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('跳跳', 6.0, '2022.10.3', '高原病', '张达发');
+INSERT INTO patients_med_disease(pt_name, med_id, dis_date, dis_type, doc_name ) Values('跳跳', 6.0, '2022.10.29', '消化不良', '刘东');
+COMMIT;
